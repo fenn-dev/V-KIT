@@ -37,6 +37,8 @@ void fillVar(vector<Token>& tokens, node& currentNode, int& i) {
             }
         }
         else if (token.type == TokenType::ASSIGN || token.type == TokenType::COMMIT) {
+            i++;
+            Token& typeToken = tokens[i];
             
             return; 
         }
