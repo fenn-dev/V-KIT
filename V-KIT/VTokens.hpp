@@ -1,5 +1,6 @@
 #include <string>
 #include <unordered_map>
+#include "Helper.hpp"
 
 #define KEYWORD_LIST(V)                     \
     V(LET, "let")                           \
@@ -27,7 +28,7 @@
     V(W16, "w16")                           \
     V(W32, "w32")                           \
     V(W64, "w64")                           \
-    V(Wild, "wild")                         \
+    V(WILD, "wild")                         \
     /* ___OPERATORS___ */                   \
     V(ASSIGN, "=")                          \
     V(INHERIT, ":")                         \
@@ -65,3 +66,27 @@ struct Token {
     Token(std::string l, size_t r, size_t c, TokenType t) 
         : lexeme(l), row(r), column(c), type(t) {}
 };
+
+#define size8type \
+TokenType::I8: case TokenType::U8: case TokenType::W8: case TokenType::CHAR
+
+#define size16type \
+TokenType::I16: case TokenType::U16: case TokenType::W16
+
+#define size32type \
+TokenType::I32: case TokenType::U32: case TokenType::W32: case TokenType::F32: case TokenType::FLOAT
+
+#define size64type \
+TokenType::I64: case TokenType::U64: case TokenType::W64: case TokenType::F64: case TokenType::DOUBLE
+
+#define sizeVARtype \
+TokenType::INT: case TokenType::UINT: case TokenType::WILD
+
+#define INTtype \
+TokenType::I8: case TokenType::I16: case TokenType::I32: case TokenType::I64: case TokenType::INT
+
+#define UINTtype \
+TokenType::U8: case TokenType::U16: case TokenType::U32: case TokenType::U64: case TokenType::UINT
+
+#define WILDtype \
+TokenType::W8: case TokenType::W16: case TokenType::W32: case TokenType::W64: case TokenType::WILD

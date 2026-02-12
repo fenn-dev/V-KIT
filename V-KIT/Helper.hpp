@@ -6,3 +6,5 @@ std::cout << msg
 #else
 #define DLOG(msg)
 #endif
+
+int arch = 64;
