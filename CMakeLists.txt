@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+set(Visuals OFF)
+
+if(Visuals)
 # --- Dependency Management (FetchContent) ---
 include(FetchContent)
 
@@ -23,6 +26,7 @@ FetchContent_Declare(imgui
     GIT_TAG        docking 
 )
 FetchContent_MakeAvailable(imgui)
+endif()
 
 # --- Compiler Flags ---
 if(MSVC)
@@ -36,16 +40,24 @@ endif()
 # Include project headers + ImGui headers + ImGui Backend headers
 include_directories(
     include 
-    V-KIT/token 
+    V-KIT/token
+)
+
+if(Visuals)
+include_directories(
     ${imgui_SOURCE_DIR} 
     ${imgui_SOURCE_DIR}/backends
 )
+endif()
 
 set(SOURCES
     main.cpp
-    V-KIT/token/Tokenizer.cpp
-    
-    # ImGui Core
+    V-KIT/tokenizer/Tokenizer.cpp
+)
+
+if(Visuals)
+set(SOURCES
+# ImGui Core
     ${imgui_SOURCE_DIR}/imgui.cpp
     ${imgui_SOURCE_DIR}/imgui_draw.cpp
     ${imgui_SOURCE_DIR}/imgui_widgets.cpp
@@ -56,9 +68,13 @@ set(SOURCES
     ${imgui_SOURCE_DIR}/backends/imgui_impl_glfw.cpp
     ${imgui_SOURCE_DIR}/backends/imgui_impl_opengl3.cpp
 )
+endif()
 
 # --- Executable and Linking ---
 add_executable(vulpine ${SOURCES})
+
+
+if(Visuals)
 
 # We need OpenGL for ImGui to render
 find_package(OpenGL REQUIRED)
@@ -69,3 +85,4 @@ target_link_libraries(vulpine PRIVATE
     glfw 
     OpenGL::GL
 )
+endif()

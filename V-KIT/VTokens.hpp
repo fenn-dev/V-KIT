@@ -56,3 +56,12 @@ static inline const std::unordered_map<std::string, TokenType> Keywords = {
     #undef DEFINE_MAP
 };
 
+struct Token {
+    std::string lexeme;
+    size_t row;
+    size_t column;
+    TokenType type;
+
+    Token(std::string l, size_t r, size_t c, TokenType t) 
+        : lexeme(l), row(r), column(c), type(t) {}
+};
