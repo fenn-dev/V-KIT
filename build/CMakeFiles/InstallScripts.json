@@ -1,10 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/rasmu/Desktop/V-KIT/build/cmake_install.cmake",
-		"C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/cmake_install.cmake",
-		"C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/src/cmake_install.cmake",
-		"C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/cmake_install.cmake"
+		"C:/Users/rasmu/Desktop/V-KIT/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

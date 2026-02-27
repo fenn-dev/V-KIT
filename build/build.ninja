@@ -47,13 +47,13 @@ cmake_ninja_workdir = C$:\Users\rasmu\Desktop\V-KIT\build\
 #############################################
 # Order-only phony target for vulpine
 
-build cmake_object_order_depends_target_vulpine: phony || cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_vulpine: phony || .
 
 build CMakeFiles\vulpine.dir\main.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\main.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
   OBJECT_FILE_DIR = CMakeFiles\vulpine.dir
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
@@ -63,7 +63,7 @@ build CMakeFiles\vulpine.dir\V-KIT\tokenizer\Tokenizer.cpp.obj: CXX_COMPILER__vu
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
   OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\V-KIT\tokenizer
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
@@ -73,7 +73,7 @@ build CMakeFiles\vulpine.dir\V-KIT\builder\builder.cpp.obj: CXX_COMPILER__vulpin
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
   OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\V-KIT\builder
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
@@ -83,79 +83,79 @@ build CMakeFiles\vulpine.dir\V-KIT\VCLTL\VCLTL.cpp.obj: CXX_COMPILER__vulpine_un
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
   OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\V-KIT\VCLTL
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
-build CMakeFiles\vulpine.dir\_deps\imgui-src\imgui.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\imgui.cpp || cmake_object_order_depends_target_vulpine
+build CMakeFiles\vulpine.dir\3P\imgui\imgui.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\3P\imgui\imgui.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
-  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\_deps\imgui-src
+  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\3P\imgui
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
-build CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_draw.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\imgui_draw.cpp || cmake_object_order_depends_target_vulpine
+build CMakeFiles\vulpine.dir\3P\imgui\imgui_draw.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\3P\imgui\imgui_draw.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
-  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\_deps\imgui-src
+  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\3P\imgui
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
-build CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_widgets.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\imgui_widgets.cpp || cmake_object_order_depends_target_vulpine
+build CMakeFiles\vulpine.dir\3P\imgui\imgui_widgets.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\3P\imgui\imgui_widgets.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
-  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\_deps\imgui-src
+  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\3P\imgui
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
-build CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_tables.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\imgui_tables.cpp || cmake_object_order_depends_target_vulpine
+build CMakeFiles\vulpine.dir\3P\imgui\imgui_tables.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\3P\imgui\imgui_tables.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
-  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\_deps\imgui-src
+  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\3P\imgui
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
-build CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_demo.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\imgui_demo.cpp || cmake_object_order_depends_target_vulpine
+build CMakeFiles\vulpine.dir\3P\imgui\imgui_demo.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\3P\imgui\imgui_demo.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
-  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\_deps\imgui-src
+  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\3P\imgui
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
-build CMakeFiles\vulpine.dir\_deps\imgui-src\backends\imgui_impl_glfw.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends\imgui_impl_glfw.cpp || cmake_object_order_depends_target_vulpine
+build CMakeFiles\vulpine.dir\3P\imgui\backends\imgui_impl_glfw.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends\imgui_impl_glfw.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
-  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\_deps\imgui-src\backends
+  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\3P\imgui\backends
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
-build CMakeFiles\vulpine.dir\_deps\imgui-src\backends\imgui_impl_opengl3.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends\imgui_impl_opengl3.cpp || cmake_object_order_depends_target_vulpine
+build CMakeFiles\vulpine.dir\3P\imgui\backends\imgui_impl_opengl3.cpp.obj: CXX_COMPILER__vulpine_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends\imgui_impl_opengl3.cpp || cmake_object_order_depends_target_vulpine
   CONFIG = Debug
   DEFINES = -Ddebugv
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4 /permissive-
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\imgui-src\backends -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
+  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\include -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\tokenizer -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\builder -IC:\Users\rasmu\Desktop\V-KIT\V-KIT\VCLTL -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui -IC:\Users\rasmu\Desktop\V-KIT\3P\imgui\backends -IC:\Users\rasmu\Desktop\V-KIT\3P\glfw\include
   OBJECT_DIR = CMakeFiles\vulpine.dir
-  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\_deps\imgui-src\backends
+  OBJECT_FILE_DIR = CMakeFiles\vulpine.dir\3P\imgui\backends
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_PDB = vulpine.pdb
 
@@ -167,14 +167,14 @@ build CMakeFiles\vulpine.dir\_deps\imgui-src\backends\imgui_impl_opengl3.cpp.obj
 #############################################
 # Link the executable vulpine.exe
 
-build vulpine.exe: CXX_EXECUTABLE_LINKER__vulpine_Debug CMakeFiles\vulpine.dir\main.cpp.obj CMakeFiles\vulpine.dir\V-KIT\tokenizer\Tokenizer.cpp.obj CMakeFiles\vulpine.dir\V-KIT\builder\builder.cpp.obj CMakeFiles\vulpine.dir\V-KIT\VCLTL\VCLTL.cpp.obj CMakeFiles\vulpine.dir\_deps\imgui-src\imgui.cpp.obj CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_draw.cpp.obj CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_widgets.cpp.obj CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_tables.cpp.obj CMakeFiles\vulpine.dir\_deps\imgui-src\imgui_demo.cpp.obj CMakeFiles\vulpine.dir\_deps\imgui-src\backends\imgui_impl_glfw.cpp.obj CMakeFiles\vulpine.dir\_deps\imgui-src\backends\imgui_impl_opengl3.cpp.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
+build vulpine.exe: CXX_EXECUTABLE_LINKER__vulpine_Debug CMakeFiles\vulpine.dir\main.cpp.obj CMakeFiles\vulpine.dir\V-KIT\tokenizer\Tokenizer.cpp.obj CMakeFiles\vulpine.dir\V-KIT\builder\builder.cpp.obj CMakeFiles\vulpine.dir\V-KIT\VCLTL\VCLTL.cpp.obj CMakeFiles\vulpine.dir\3P\imgui\imgui.cpp.obj CMakeFiles\vulpine.dir\3P\imgui\imgui_draw.cpp.obj CMakeFiles\vulpine.dir\3P\imgui\imgui_widgets.cpp.obj CMakeFiles\vulpine.dir\3P\imgui\imgui_tables.cpp.obj CMakeFiles\vulpine.dir\3P\imgui\imgui_demo.cpp.obj CMakeFiles\vulpine.dir\3P\imgui\backends\imgui_impl_glfw.cpp.obj CMakeFiles\vulpine.dir\3P\imgui\backends\imgui_impl_opengl3.cpp.obj | C$:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2013\glfw3.lib C$:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2015\glfw3.lib C$:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2017\glfw3.lib C$:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2019\glfw3.lib C$:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2022\glfw3.lib
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  opengl32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2013\glfw3.lib  C:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2015\glfw3.lib  C:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2017\glfw3.lib  C:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2019\glfw3.lib  C:\Users\rasmu\Desktop\V-KIT\3P\glfw\lib-vc2022\glfw3.lib  opengl32.lib  gdi32.lib  user32.lib  shell32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\vulpine.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/vulpine.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
+  PRE_LINK = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build && ( taskkill /F /IM vulpine.exe /T || exit 0 ) && cd C:\Users\rasmu\Desktop\V-KIT\build"
   TARGET_COMPILE_PDB = CMakeFiles\vulpine.dir\
   TARGET_FILE = vulpine.exe
   TARGET_IMPLIB = vulpine.lib
@@ -204,1035 +204,10 @@ build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
-
-#############################################
-# Utility command for list_install_components
-
-build list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build install: phony CMakeFiles\install.util
-
-
-#############################################
-# Utility command for install/local
-
-build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build install\local: phony CMakeFiles\install\local.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/rasmu/Desktop/V-KIT/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for uninstall
-
-build _deps\glfw-build\uninstall: phony _deps\glfw-build\CMakeFiles\uninstall
-
-
-#############################################
-# Utility command for edit_cache
-
-build _deps\glfw-build\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\rasmu\Desktop\V-KIT -BC:\Users\rasmu\Desktop\V-KIT\build"
-  DESC = Running CMake cache editor...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\edit_cache: phony _deps\glfw-build\CMakeFiles\edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build _deps\glfw-build\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\rasmu\Desktop\V-KIT -BC:\Users\rasmu\Desktop\V-KIT\build"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\rebuild_cache: phony _deps\glfw-build\CMakeFiles\rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build _deps\glfw-build\list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build _deps\glfw-build\CMakeFiles\install.util: CUSTOM_COMMAND _deps\glfw-build\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\install: phony _deps\glfw-build\CMakeFiles\install.util
-
-
-#############################################
-# Utility command for install/local
-
-build _deps\glfw-build\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\glfw-build\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\install\local: phony _deps\glfw-build\CMakeFiles\install\local.util
-
-
-#############################################
-# Custom command for _deps\glfw-build\CMakeFiles\uninstall
-
-build _deps\glfw-build\CMakeFiles\uninstall | ${cmake_ninja_workdir}_deps\glfw-build\CMakeFiles\uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/cmake_uninstall.cmake"
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-src/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for update_mappings
-
-build _deps\glfw-build\src\update_mappings: phony _deps\glfw-build\src\CMakeFiles\update_mappings
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target glfw
-
-
-#############################################
-# Order-only phony target for glfw
-
-build cmake_object_order_depends_target_glfw: phony || .
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\context.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\init.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\input.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\monitor.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\vulkan.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\window.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\win32_init.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\win32_joystick.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\win32_monitor.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\win32_time.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\win32_thread.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\win32_window.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\wgl_context.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\egl_context.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-build _deps\glfw-build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src\osmesa_context.c || cmake_object_order_depends_target_glfw
-  CONFIG = Debug
-  DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target glfw
-
-
-#############################################
-# Link the static library _deps\glfw-build\src\glfw3.lib
-
-build _deps\glfw-build\src\glfw3.lib: C_STATIC_LIBRARY_LINKER__glfw_Debug _deps\glfw-build\src\CMakeFiles\glfw.dir\context.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\init.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\input.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\monitor.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\vulkan.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\window.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_init.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_time.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_thread.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_window.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\wgl_context.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\egl_context.c.obj _deps\glfw-build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj
-  CONFIG = Debug
-  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64
-  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_FILE = _deps\glfw-build\src\glfw3.lib
-  TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
-
-
-#############################################
-# Utility command for edit_cache
-
-build _deps\glfw-build\src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\rasmu\Desktop\V-KIT -BC:\Users\rasmu\Desktop\V-KIT\build"
-  DESC = Running CMake cache editor...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\src\edit_cache: phony _deps\glfw-build\src\CMakeFiles\edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build _deps\glfw-build\src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\rasmu\Desktop\V-KIT -BC:\Users\rasmu\Desktop\V-KIT\build"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\src\rebuild_cache: phony _deps\glfw-build\src\CMakeFiles\rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build _deps\glfw-build\src\list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build _deps\glfw-build\src\CMakeFiles\install.util: CUSTOM_COMMAND _deps\glfw-build\src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\src\install: phony _deps\glfw-build\src\CMakeFiles\install.util
-
-
-#############################################
-# Utility command for install/local
-
-build _deps\glfw-build\src\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\glfw-build\src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\src\install\local: phony _deps\glfw-build\src\CMakeFiles\install\local.util
-
-
-#############################################
-# Custom command for _deps\glfw-build\src\CMakeFiles\update_mappings
-
-build _deps\glfw-build\src\CMakeFiles\update_mappings | ${cmake_ninja_workdir}_deps\glfw-build\src\CMakeFiles\update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\src && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
-  DESC = Updating gamepad mappings from upstream repository
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-src/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target boing
-
-
-#############################################
-# Order-only phony target for boing
-
-build cmake_object_order_depends_target_boing: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\boing.dir\boing.c.obj: C_COMPILER__boing_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\boing.c || cmake_object_order_depends_target_boing
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\boing.dir\glfw.rc.res: RC_COMPILER__boing_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_boing
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\boing.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\boing.dir\__\deps\glad_gl.c.obj: C_COMPILER__boing_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_boing
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target boing
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\boing.exe
-
-build _deps\glfw-build\examples\boing.exe: C_EXECUTABLE_LINKER__boing_Debug _deps\glfw-build\examples\CMakeFiles\boing.dir\boing.c.obj _deps\glfw-build\examples\CMakeFiles\boing.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\boing.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/boing.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
-  TARGET_FILE = _deps\glfw-build\examples\boing.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\boing.lib
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target gears
-
-
-#############################################
-# Order-only phony target for gears
-
-build cmake_object_order_depends_target_gears: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\gears.dir\gears.c.obj: C_COMPILER__gears_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\gears.c || cmake_object_order_depends_target_gears
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\gears.dir\glfw.rc.res: RC_COMPILER__gears_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_gears
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\gears.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\gears.dir\__\deps\glad_gl.c.obj: C_COMPILER__gears_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_gears
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target gears
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\gears.exe
-
-build _deps\glfw-build\examples\gears.exe: C_EXECUTABLE_LINKER__gears_Debug _deps\glfw-build\examples\CMakeFiles\gears.dir\gears.c.obj _deps\glfw-build\examples\CMakeFiles\gears.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\gears.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/gears.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
-  TARGET_FILE = _deps\glfw-build\examples\gears.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\gears.lib
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target heightmap
-
-
-#############################################
-# Order-only phony target for heightmap
-
-build cmake_object_order_depends_target_heightmap: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\heightmap.dir\heightmap.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\heightmap.c || cmake_object_order_depends_target_heightmap
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\heightmap.dir\glfw.rc.res: RC_COMPILER__heightmap_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_heightmap
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\heightmap.dir\__\deps\glad_gl.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_heightmap
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target heightmap
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\heightmap.exe
-
-build _deps\glfw-build\examples\heightmap.exe: C_EXECUTABLE_LINKER__heightmap_Debug _deps\glfw-build\examples\CMakeFiles\heightmap.dir\heightmap.c.obj _deps\glfw-build\examples\CMakeFiles\heightmap.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\heightmap.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/heightmap.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
-  TARGET_FILE = _deps\glfw-build\examples\heightmap.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\heightmap.lib
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target offscreen
-
-
-#############################################
-# Order-only phony target for offscreen
-
-build cmake_object_order_depends_target_offscreen: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\offscreen.dir\offscreen.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\offscreen.c || cmake_object_order_depends_target_offscreen
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\offscreen.dir\glfw.rc.res: RC_COMPILER__offscreen_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_offscreen
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\offscreen.dir\__\deps\glad_gl.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_offscreen
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target offscreen
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\offscreen.exe
-
-build _deps\glfw-build\examples\offscreen.exe: C_EXECUTABLE_LINKER__offscreen_Debug _deps\glfw-build\examples\CMakeFiles\offscreen.dir\offscreen.c.obj _deps\glfw-build\examples\CMakeFiles\offscreen.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\offscreen.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/offscreen.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
-  TARGET_FILE = _deps\glfw-build\examples\offscreen.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\offscreen.lib
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target particles
-
-
-#############################################
-# Order-only phony target for particles
-
-build cmake_object_order_depends_target_particles: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\particles.dir\particles.c.obj: C_COMPILER__particles_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\particles.c || cmake_object_order_depends_target_particles
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\particles.dir\glfw.rc.res: RC_COMPILER__particles_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_particles
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\particles.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\tinycthread.c.obj: C_COMPILER__particles_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\tinycthread.c || cmake_object_order_depends_target_particles
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\getopt.c.obj: C_COMPILER__particles_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\getopt.c || cmake_object_order_depends_target_particles
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\glad_gl.c.obj: C_COMPILER__particles_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_particles
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target particles
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\particles.exe
-
-build _deps\glfw-build\examples\particles.exe: C_EXECUTABLE_LINKER__particles_Debug _deps\glfw-build\examples\CMakeFiles\particles.dir\particles.c.obj _deps\glfw-build\examples\CMakeFiles\particles.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\tinycthread.c.obj _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\getopt.c.obj _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/particles.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_FILE = _deps\glfw-build\examples\particles.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\particles.lib
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target sharing
-
-
-#############################################
-# Order-only phony target for sharing
-
-build cmake_object_order_depends_target_sharing: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\sharing.dir\sharing.c.obj: C_COMPILER__sharing_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\sharing.c || cmake_object_order_depends_target_sharing
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\sharing.dir\glfw.rc.res: RC_COMPILER__sharing_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_sharing
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\sharing.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj: C_COMPILER__sharing_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_sharing
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sharing
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\sharing.exe
-
-build _deps\glfw-build\examples\sharing.exe: C_EXECUTABLE_LINKER__sharing_Debug _deps\glfw-build\examples\CMakeFiles\sharing.dir\sharing.c.obj _deps\glfw-build\examples\CMakeFiles\sharing.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/sharing.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
-  TARGET_FILE = _deps\glfw-build\examples\sharing.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\sharing.lib
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target simple
-
-
-#############################################
-# Order-only phony target for simple
-
-build cmake_object_order_depends_target_simple: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\simple.dir\simple.c.obj: C_COMPILER__simple_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\simple.c || cmake_object_order_depends_target_simple
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\simple.dir\glfw.rc.res: RC_COMPILER__simple_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_simple
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\simple.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\simple.dir\__\deps\glad_gl.c.obj: C_COMPILER__simple_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_simple
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target simple
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\simple.exe
-
-build _deps\glfw-build\examples\simple.exe: C_EXECUTABLE_LINKER__simple_Debug _deps\glfw-build\examples\CMakeFiles\simple.dir\simple.c.obj _deps\glfw-build\examples\CMakeFiles\simple.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\simple.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/simple.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
-  TARGET_FILE = _deps\glfw-build\examples\simple.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\simple.lib
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target splitview
-
-
-#############################################
-# Order-only phony target for splitview
-
-build cmake_object_order_depends_target_splitview: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\splitview.dir\splitview.c.obj: C_COMPILER__splitview_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\splitview.c || cmake_object_order_depends_target_splitview
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\splitview.dir\glfw.rc.res: RC_COMPILER__splitview_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_splitview
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\splitview.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\splitview.dir\__\deps\glad_gl.c.obj: C_COMPILER__splitview_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_splitview
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target splitview
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\splitview.exe
-
-build _deps\glfw-build\examples\splitview.exe: C_EXECUTABLE_LINKER__splitview_Debug _deps\glfw-build\examples\CMakeFiles\splitview.dir\splitview.c.obj _deps\glfw-build\examples\CMakeFiles\splitview.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\splitview.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/splitview.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
-  TARGET_FILE = _deps\glfw-build\examples\splitview.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\splitview.lib
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target wave
-
-
-#############################################
-# Order-only phony target for wave
-
-build cmake_object_order_depends_target_wave: phony || cmake_object_order_depends_target_glfw
-
-build _deps\glfw-build\examples\CMakeFiles\wave.dir\wave.c.obj: C_COMPILER__wave_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\wave.c || cmake_object_order_depends_target_wave
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\wave.dir\glfw.rc.res: RC_COMPILER__wave_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\examples\glfw.rc || cmake_object_order_depends_target_wave
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  DEP_FILE = _deps\glfw-build\examples\CMakeFiles\wave.dir\glfw.rc.res.d
-  FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -I C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
-
-build _deps\glfw-build\examples\CMakeFiles\wave.dir\__\deps\glad_gl.c.obj: C_COMPILER__wave_unscanned_Debug C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps\glad_gl.c || cmake_object_order_depends_target_wave
-  CONFIG = Debug
-  DEFINES = -D_CRT_SECURE_NO_WARNINGS -Ddebugv
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\deps -IC:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-src\include
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target wave
-
-
-#############################################
-# Link the executable _deps\glfw-build\examples\wave.exe
-
-build _deps\glfw-build\examples\wave.exe: C_EXECUTABLE_LINKER__wave_Debug _deps\glfw-build\examples\CMakeFiles\wave.dir\wave.c.obj _deps\glfw-build\examples\CMakeFiles\wave.dir\glfw.rc.res _deps\glfw-build\examples\CMakeFiles\wave.dir\__\deps\glad_gl.c.obj | _deps\glfw-build\src\glfw3.lib || _deps\glfw-build\src\glfw3.lib
-  CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows /ENTRY:mainCRTStartup
-  LINK_LIBRARIES = _deps\glfw-build\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples/wave.exe -installedDir "C:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
-  TARGET_FILE = _deps\glfw-build\examples\wave.exe
-  TARGET_IMPLIB = _deps\glfw-build\examples\wave.lib
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
-
-
-#############################################
-# Utility command for edit_cache
-
-build _deps\glfw-build\examples\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\rasmu\Desktop\V-KIT -BC:\Users\rasmu\Desktop\V-KIT\build"
-  DESC = Running CMake cache editor...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\examples\edit_cache: phony _deps\glfw-build\examples\CMakeFiles\edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build _deps\glfw-build\examples\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\rasmu\Desktop\V-KIT -BC:\Users\rasmu\Desktop\V-KIT\build"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\examples\rebuild_cache: phony _deps\glfw-build\examples\CMakeFiles\rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build _deps\glfw-build\examples\list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build _deps\glfw-build\examples\CMakeFiles\install.util: CUSTOM_COMMAND _deps\glfw-build\examples\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\examples\install: phony _deps\glfw-build\examples\CMakeFiles\install.util
-
-
-#############################################
-# Utility command for install/local
-
-build _deps\glfw-build\examples\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\glfw-build\examples\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build _deps\glfw-build\examples\install\local: phony _deps\glfw-build\examples\CMakeFiles\install\local.util
-
 # =============================================================================
 # Target aliases.
 
-build boing: phony _deps\glfw-build\examples\boing.exe
-
-build boing.exe: phony _deps\glfw-build\examples\boing.exe
-
-build gears: phony _deps\glfw-build\examples\gears.exe
-
-build gears.exe: phony _deps\glfw-build\examples\gears.exe
-
-build glfw: phony _deps\glfw-build\src\glfw3.lib
-
-build glfw3.lib: phony _deps\glfw-build\src\glfw3.lib
-
-build heightmap: phony _deps\glfw-build\examples\heightmap.exe
-
-build heightmap.exe: phony _deps\glfw-build\examples\heightmap.exe
-
-build offscreen: phony _deps\glfw-build\examples\offscreen.exe
-
-build offscreen.exe: phony _deps\glfw-build\examples\offscreen.exe
-
-build particles: phony _deps\glfw-build\examples\particles.exe
-
-build particles.exe: phony _deps\glfw-build\examples\particles.exe
-
-build sharing: phony _deps\glfw-build\examples\sharing.exe
-
-build sharing.exe: phony _deps\glfw-build\examples\sharing.exe
-
-build simple: phony _deps\glfw-build\examples\simple.exe
-
-build simple.exe: phony _deps\glfw-build\examples\simple.exe
-
-build splitview: phony _deps\glfw-build\examples\splitview.exe
-
-build splitview.exe: phony _deps\glfw-build\examples\splitview.exe
-
-build uninstall: phony _deps\glfw-build\uninstall
-
-build update_mappings: phony _deps\glfw-build\src\update_mappings
-
 build vulpine: phony vulpine.exe
-
-build wave: phony _deps\glfw-build\examples\wave.exe
-
-build wave.exe: phony _deps\glfw-build\examples\wave.exe
 
 # =============================================================================
 # Folder targets.
@@ -1242,28 +217,7 @@ build wave.exe: phony _deps\glfw-build\examples\wave.exe
 #############################################
 # Folder: C:/Users/rasmu/Desktop/V-KIT/build
 
-build all: phony vulpine.exe _deps\glfw-build\all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build
-
-build _deps\glfw-build\all: phony _deps\glfw-build\src\all _deps\glfw-build\examples\all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/examples
-
-build _deps\glfw-build\examples\all: phony _deps\glfw-build\examples\boing.exe _deps\glfw-build\examples\gears.exe _deps\glfw-build\examples\heightmap.exe _deps\glfw-build\examples\offscreen.exe _deps\glfw-build\examples\particles.exe _deps\glfw-build\examples\sharing.exe _deps\glfw-build\examples\simple.exe _deps\glfw-build\examples\splitview.exe _deps\glfw-build\examples\wave.exe
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/rasmu/Desktop/V-KIT/build/_deps/glfw-build/src
-
-build _deps\glfw-build\src\all: phony _deps\glfw-build\src\glfw3.lib
+build all: phony vulpine.exe
 
 # =============================================================================
 # Built-in targets
@@ -1272,14 +226,14 @@ build _deps\glfw-build\src\all: phony _deps\glfw-build\src\glfw3.lib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:\Users\rasmu\Desktop\V-KIT\build\cmake_install.cmake C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\cmake_install.cmake C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\src\cmake_install.cmake C$:\Users\rasmu\Desktop\V-KIT\build\_deps\glfw-build\examples\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindGit.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\GNUInstallDirs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\VC\vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\rasmu\Desktop\V-KIT\CMakeLists.txt CMakeCache.txt CMakeFiles\4.0.3\CMakeCCompiler.cmake CMakeFiles\4.0.3\CMakeCXXCompiler.cmake CMakeFiles\4.0.3\CMakeRCCompiler.cmake CMakeFiles\4.0.3\CMakeSystem.cmake _deps\glfw-src\CMakeLists.txt _deps\glfw-src\cmake_uninstall.cmake.in _deps\glfw-src\examples\CMakeLists.txt _deps\glfw-src\src\CMakeLists.txt _deps\glfw-src\src\glfw3.pc.in _deps\glfw-src\src\glfw3Config.cmake.in _deps\glfw-src\src\glfw_config.h.in
+build build.ninja C$:\Users\rasmu\Desktop\V-KIT\build\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\VC\vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\rasmu\Desktop\V-KIT\CMakeLists.txt CMakeCache.txt CMakeFiles\4.0.3\CMakeCXXCompiler.cmake CMakeFiles\4.0.3\CMakeRCCompiler.cmake CMakeFiles\4.0.3\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindGit.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\GNUInstallDirs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\VC\vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\rasmu\Desktop\V-KIT\CMakeLists.txt CMakeCache.txt CMakeFiles\4.0.3\CMakeCCompiler.cmake CMakeFiles\4.0.3\CMakeCXXCompiler.cmake CMakeFiles\4.0.3\CMakeRCCompiler.cmake CMakeFiles\4.0.3\CMakeSystem.cmake _deps\glfw-src\CMakeLists.txt _deps\glfw-src\cmake_uninstall.cmake.in _deps\glfw-src\examples\CMakeLists.txt _deps\glfw-src\src\CMakeLists.txt _deps\glfw-src\src\glfw3.pc.in _deps\glfw-src\src\glfw3Config.cmake.in _deps\glfw-src\src\glfw_config.h.in: phony
+build C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\VC\vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\rasmu\Desktop\V-KIT\CMakeLists.txt CMakeCache.txt CMakeFiles\4.0.3\CMakeCXXCompiler.cmake CMakeFiles\4.0.3\CMakeRCCompiler.cmake CMakeFiles\4.0.3\CMakeSystem.cmake: phony
 
 
 #############################################
